@@ -56,7 +56,7 @@ if uploaded_file is not None:
 
     # Configuração do Funil de WhatsApp
     # Substitua pelo seu número abaixo (Ex: 55 + DDD + Numero)
-    meu_zap = "5524999999999" 
+    meu_zap = "55249988334620" 
     texto_zap = f"Olá! Meu diagnóstico no ScalpScan deu {nivel} ({densidade:.1f}%). Quero o protocolo de tratamento."
     link_final = f"https://wa.me/{meu_zap}?text={texto_zap.replace(' ', '%20')}"
     
